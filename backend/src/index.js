@@ -46,3 +46,7 @@ function shutdown() {
 //
 // need above in docker container to properly exit
 //
+// 
+
+const express= require('express');
+const mysql= require('mysql');
